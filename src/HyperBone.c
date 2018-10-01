@@ -99,6 +99,7 @@ VOID FreeGlobalData( IN PGLOBAL_DATA pData )
 */
 NTSTATUS DriverEntry( IN PDRIVER_OBJECT DriverObject, IN PUNICODE_STRING RegistryPath )
 {
+    //Test fork
     NTSTATUS status = STATUS_SUCCESS;
     UNREFERENCED_PARAMETER( RegistryPath );
 
